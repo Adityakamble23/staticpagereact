@@ -1,14 +1,21 @@
 function Maincontent() {
   return (
     <div className="main">
-      <h1>Fun Fact About React !</h1>
-      <ul>
-        <li>Was first released in 2013</li>
-        <li>Was originally created by Jordan Walke</li>
-        <li>Has well over 100k stars on GitHub</li>
-        <li>Is maintained by Facebook</li>
-        <li>Powers thousands of enterprise apps, including mobile apps</li>
-      </ul>
+      <p>laurasmith.website</p>
+      <div class="contact-buttons">
+        <a href="mailto:your@email.com" class="btn email-btn">
+          <span class="icon  ">✉️</span> Email
+        </a>
+        <span className="sizebox"></span>
+
+        <a
+          href="https://www.linkedin.com/in/yourprofile"
+          class="btn linkedin-btn"
+          target="_blank"
+        >
+          <span class="icon">in</span> LinkedIn
+        </a>
+      </div>
     </div>
   );
 }
